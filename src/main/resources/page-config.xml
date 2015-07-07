@@ -1,0 +1,21 @@
+<com:pages-config xmlns:com="com.epam.store.pages">
+
+    <start-page>catalog</start-page>
+
+    <com:page-mapping>
+        <jsp-page-name>category-management</jsp-page-name>
+        <uri>admin/categories</uri>
+    </com:page-mapping>
+    <com:page-mapping>
+        <jsp-page-name>change-password</jsp-page-name>
+        <uri>user/change-password</uri>
+    </com:page-mapping>
+
+    <com:pages-with-uri-parameters>
+        <page-name>catalog</page-name>
+        <page-name>image</page-name>
+        <page-name>purchase-list</page-name>
+        <page-name>products</page-name>
+        <page-name>details</page-name>
+    </com:pages-with-uri-parameters>
+</com:pages-config>
